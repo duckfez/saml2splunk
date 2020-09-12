@@ -11,10 +11,10 @@ import (
 	"github.com/PuerkitoBio/goquery"
 
 	"github.com/stretchr/testify/require"
-	"github.com/versent/saml2aws/v2/mocks"
-	"github.com/versent/saml2aws/v2/pkg/creds"
-	"github.com/versent/saml2aws/v2/pkg/prompter"
-	"github.com/versent/saml2aws/v2/pkg/provider"
+	"github.com/duckfez/saml2splunk/v2/mocks"
+	"github.com/duckfez/saml2splunk/v2/pkg/creds"
+	"github.com/duckfez/saml2splunk/v2/pkg/prompter"
+	"github.com/duckfez/saml2splunk/v2/pkg/provider"
 )
 
 const (

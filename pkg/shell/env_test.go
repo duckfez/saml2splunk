@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/versent/saml2aws/v2/pkg/awsconfig"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/flags"
+	"github.com/duckfez/saml2splunk/v2/pkg/awsconfig"
+	"github.com/duckfez/saml2splunk/v2/pkg/cfg"
+	"github.com/duckfez/saml2splunk/v2/pkg/flags"
 )
 
 func TestBuildEnvVars(t *testing.T) {

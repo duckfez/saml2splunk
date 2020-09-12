@@ -6,9 +6,9 @@ import (
 	"sort"
 
 	"github.com/pkg/errors"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/creds"
-	"github.com/versent/saml2aws/v2/pkg/prompter"
+	"github.com/duckfez/saml2splunk/v2/pkg/cfg"
+	"github.com/duckfez/saml2splunk/v2/pkg/creds"
+	"github.com/duckfez/saml2splunk/v2/pkg/prompter"
 )
 
 // PromptForConfigurationDetails prompt the user to present their hostname, username and mfa

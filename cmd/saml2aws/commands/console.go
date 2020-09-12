@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/skratchdot/open-golang/open"
-	"github.com/versent/saml2aws/v2/pkg/awsconfig"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/flags"
+	"github.com/duckfez/saml2splunk/v2/pkg/awsconfig"
+	"github.com/duckfez/saml2splunk/v2/pkg/cfg"
+	"github.com/duckfez/saml2splunk/v2/pkg/flags"
 )
 
 const (

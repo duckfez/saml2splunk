@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/versent/saml2aws/v2"
-	"github.com/versent/saml2aws/v2/helper/credentials"
-	"github.com/versent/saml2aws/v2/pkg/flags"
+	"github.com/duckfez/saml2splunk/v2"
+	"github.com/duckfez/saml2splunk/v2/helper/credentials"
+	"github.com/duckfez/saml2splunk/v2/pkg/flags"
 )
 
 // ListRoles will list available role ARNs

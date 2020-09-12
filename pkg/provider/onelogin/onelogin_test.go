@@ -3,9 +3,9 @@ package onelogin_test
 import (
 	"testing"
 
-	"github.com/versent/saml2aws/v2/pkg/creds"
-	"github.com/versent/saml2aws/v2/pkg/provider"
-	"github.com/versent/saml2aws/v2/pkg/provider/onelogin"
+	"github.com/duckfez/saml2splunk/v2/pkg/creds"
+	"github.com/duckfez/saml2splunk/v2/pkg/provider"
+	"github.com/duckfez/saml2splunk/v2/pkg/provider/onelogin"
 )
 
 func TestClient_Authenticate(t *testing.T) {
